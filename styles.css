@@ -1,7 +1,9 @@
 
 body {
     display: block;
-    margin-block: block;
+    margin: 8px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 header h1 {
@@ -9,17 +11,18 @@ header h1 {
     font-size: 110px;
     font-weight: 700;
     font-family:'Times New Roman', Times, serif;
-    margin-top: 100px
+    padding: 0;
     margin-bottom: 0;
 }
 
-header h5 {
+#mainheading {
     text-align: center;
     font-size: 25px;
     font-weight: 300;
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 0;
     margin-top: 0;
+    color: red;
 }
 
 header h3 {
@@ -32,31 +35,38 @@ header h3 {
 
 #byline {
     font-style: italic;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     margin-left: 0;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
+#line {
+    margin-bottom: 50px;
 }
 
-/* figure {
-    font-style: italic;
-    text-align: left;
-    margin-bottom: 50px;
-    margin-left: 75px;
-    margin-right: 75px;
-} */
+.funParagraph {
+    color: green;
+}
 
-/* img {
-    width: 75%;
-} */
 
-/* p {
-    margin-left: 75px;
-    margin-right: 75px;
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
-} */
+}
+
+figure {
+    font-style: italic;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#crowdCaption {
+    text-align: left;
+}
+
+#guyCaption {
+    text-align: left;
+}
